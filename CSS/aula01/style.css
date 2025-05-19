@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: #121212;
+    color: #fff;
+    font-family: 'Courier New', Courier, monospace;
+}
+nav {
+    width: 100%;
+    display: flex;
+    background: #07c0ef;
+    height: auto;
+    padding-bottom: 30px;
+    border-radius: 0 0 30px 30px;
+}
+ul {
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+    display: flex;
+    list-style-type: none;
+}
+img {
+    border-radius: 30px;
+}
+nav ul li a {
+    width: 50px;
+    height: 20px;
+    background: #1392e1;
+    padding: 10px;
+    border-radius: 20px;
+    /* cor da fonte */
+    color: #fff;
+    /* grosura da fonte */
+    font-weight: 1000;
+    /* estilo da fonte */
+    font-style: italic;
+    /* espaco entre os caracteres  */
+    letter-spacing: 2px;
+    /* decoracao do texto  */
+    text-decoration: none;
+    /* tamanho da fonte  */
+    font-size: 30px;
+}
+nav ul li a:hover {
+    background: #000;
+}
+section {
+    margin: 10px;
+    border-radius: 40px;
+    background: #2280df;
+    color: #ffffff;
+    width: 95%;
+    height: auto;
+    padding: 10px;
+    margin: 2.5%;
+}
+main section h1 {
+    font-size: 40px;
+    padding: 10px;
+    
+}
+main section p {
+    text-indent: 30px;
+    margin: 10px;
+    background: #ffffff;
+    font-weight: 700;
+    color: #000000;
+    font-size: 18px;
+    text-align: justify;
+    cursor: pointer;
+    padding: 20px;
+    border-radius: 20px;
+}
+form {
+    font-size: 20px;
+    background: gray;
+    margin: 15px;
+    padding: 15px;
+}
+#formulario {
+    margin-right: 15px;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    background: #121212;
+}
